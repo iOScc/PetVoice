@@ -35,6 +35,10 @@
     NSLog(@"2020年10月16日10:31:45");
 }
 
+- (void)secondTest {
+    NSLog(@"10:54:08 2020年10月16日");
+}
+
 - (void)setUI {
     
         DogViewController *dog = [[DogViewController alloc] init];  //蓝色

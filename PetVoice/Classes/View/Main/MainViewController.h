@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)cctest;
 
+- (void)secondTest;
+
 @end
 
 NS_ASSUME_NONNULL_END
