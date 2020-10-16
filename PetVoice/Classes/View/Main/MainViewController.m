@@ -27,6 +27,7 @@
     [self setUI];
     
     [self setSelectedIndex:2];
+    NSLog(@"2020年10月16日");
     // Do any additional setup after loading the view.
 }
 
