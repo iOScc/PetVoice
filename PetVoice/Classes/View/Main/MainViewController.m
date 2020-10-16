@@ -31,6 +31,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)cctest {
+    NSLog(@"2020年10月16日10:31:45");
+}
+
 - (void)setUI {
     
         DogViewController *dog = [[DogViewController alloc] init];  //蓝色
