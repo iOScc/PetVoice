@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClauseVC">
+            <connections>
+                <outlet property="textView" destination="FV1-Qq-W3V" id="ybl-K0-5tO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用条款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ro-mN-e1A">
+                    <rect key="frame" x="0.0" y="64" width="414" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FV1-Qq-W3V">
+                    <rect key="frame" x="10" y="104.5" width="394" height="669.5"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un4-xm-RKZ">
+                    <rect key="frame" x="115.5" y="794" width="183" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="183" id="MeQ-mH-neT"/>
+                        <constraint firstAttribute="height" constant="48" id="ReE-eA-wGQ"/>
+                    </constraints>
+                    <state key="normal" title="我已阅读并同意"/>
+                    <connections>
+                        <action selector="close:" destination="-1" eventType="touchUpInside" id="nwi-Tr-NFS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Un4-xm-RKZ" firstAttribute="top" secondItem="FV1-Qq-W3V" secondAttribute="bottom" constant="20" id="JIr-YX-kML"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="FV1-Qq-W3V" secondAttribute="trailing" constant="10" id="MUb-fz-hBx"/>
+                <constraint firstItem="FV1-Qq-W3V" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="Mse-cf-6eQ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6ro-mN-e1A" secondAttribute="trailing" id="PdB-sm-JBg"/>
+                <constraint firstItem="Un4-xm-RKZ" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="Xmp-ja-7ea"/>
+                <constraint firstItem="Un4-xm-RKZ" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" constant="-20" id="dBY-Gp-cUP"/>
+                <constraint firstItem="6ro-mN-e1A" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="i4x-sj-dPu"/>
+                <constraint firstItem="6ro-mN-e1A" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="mVA-12-bh6"/>
+                <constraint firstItem="FV1-Qq-W3V" firstAttribute="top" secondItem="6ro-mN-e1A" secondAttribute="bottom" constant="20" id="tVh-sZ-ozC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="124.6376811594203" y="67.633928571428569"/>
+        </view>
+    </objects>
+</document>

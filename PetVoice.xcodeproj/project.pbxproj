@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC6B44A250A6CFD00FCAA9F /* ClauseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6B448250A6CFD00FCAA9F /* ClauseVC.m */; };
+		3FC6B44B250A6CFD00FCAA9F /* ClauseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC6B449250A6CFD00FCAA9F /* ClauseVC.xib */; };
+		3FE771DC2508D58E003D4FE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE771DB2508D58E003D4FE6 /* AppDelegate.m */; };
+		3FE771DF2508D58E003D4FE6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE771DE2508D58E003D4FE6 /* SceneDelegate.m */; };
+		3FE771E52508D58E003D4FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE771E32508D58E003D4FE6 /* Main.storyboard */; };
+		3FE771E72508D593003D4FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE771E62508D593003D4FE6 /* Assets.xcassets */; };
+		3FE771EA2508D593003D4FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE771E82508D593003D4FE6 /* LaunchScreen.storyboard */; };
+		3FE771ED2508D593003D4FE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE771EC2508D593003D4FE6 /* main.m */; };
+		3FE771FD2508D748003D4FE6 /* KBTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE771FB2508D748003D4FE6 /* KBTabbar.m */; };
+		3FE772002508D78C003D4FE6 /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE771FF2508D78C003D4FE6 /* CatViewController.m */; };
+		3FE772032508D797003D4FE6 /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE772022508D797003D4FE6 /* DogViewController.m */; };
+		3FE772062508D7AB003D4FE6 /* TranslatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE772052508D7AB003D4FE6 /* TranslatorViewController.m */; };
+		3FE772092508D7D5003D4FE6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE772082508D7D5003D4FE6 /* MainViewController.m */; };
+		3FE77215250912A9003D4FE6 /* SubscribeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE772112508F69D003D4FE6 /* SubscribeVC.m */; };
+		3FE77216250912B2003D4FE6 /* SubscribeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE772102508F69D003D4FE6 /* SubscribeVC.xib */; };
+		3FE7721B250925A6003D4FE6 /* PetVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7721A250925A6003D4FE6 /* PetVoiceCell.m */; };
+		3FE7721F2509C885003D4FE6 /* TranslatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7721D2509C885003D4FE6 /* TranslatorCell.m */; };
+		3FE772202509C885003D4FE6 /* TranslatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7721E2509C885003D4FE6 /* TranslatorCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FC6B447250A6CFD00FCAA9F /* ClauseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClauseVC.h; sourceTree = "<group>"; };
+		3FC6B448250A6CFD00FCAA9F /* ClauseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClauseVC.m; sourceTree = "<group>"; };
+		3FC6B449250A6CFD00FCAA9F /* ClauseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClauseVC.xib; sourceTree = "<group>"; };
+		3FE771D72508D58E003D4FE6 /* PetVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE771DA2508D58E003D4FE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FE771DB2508D58E003D4FE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FE771DD2508D58E003D4FE6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3FE771DE2508D58E003D4FE6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3FE771E42508D58E003D4FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FE771E62508D593003D4FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FE771E92508D593003D4FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FE771EB2508D593003D4FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE771EC2508D593003D4FE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FE771FB2508D748003D4FE6 /* KBTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTabbar.m; sourceTree = "<group>"; };
+		3FE771FC2508D748003D4FE6 /* KBTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTabbar.h; sourceTree = "<group>"; };
+		3FE771FE2508D78C003D4FE6 /* CatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatViewController.h; sourceTree = "<group>"; };
+		3FE771FF2508D78C003D4FE6 /* CatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
+		3FE772012508D797003D4FE6 /* DogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
+		3FE772022508D797003D4FE6 /* DogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
+		3FE772042508D7AB003D4FE6 /* TranslatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranslatorViewController.h; sourceTree = "<group>"; };
+		3FE772052508D7AB003D4FE6 /* TranslatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslatorViewController.m; sourceTree = "<group>"; };
+		3FE772072508D7D5003D4FE6 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3FE772082508D7D5003D4FE6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3FE772102508F69D003D4FE6 /* SubscribeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubscribeVC.xib; sourceTree = "<group>"; };
+		3FE772112508F69D003D4FE6 /* SubscribeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeVC.m; sourceTree = "<group>"; };
+		3FE772122508F69D003D4FE6 /* SubscribeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeVC.h; sourceTree = "<group>"; };
+		3FE7721725091B5D003D4FE6 /* PetVoice.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetVoice.pch; sourceTree = "<group>"; };
+		3FE77219250925A6003D4FE6 /* PetVoiceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetVoiceCell.h; sourceTree = "<group>"; };
+		3FE7721A250925A6003D4FE6 /* PetVoiceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetVoiceCell.m; sourceTree = "<group>"; };
+		3FE7721C2509C885003D4FE6 /* TranslatorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranslatorCell.h; sourceTree = "<group>"; };
+		3FE7721D2509C885003D4FE6 /* TranslatorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslatorCell.m; sourceTree = "<group>"; };
+		3FE7721E2509C885003D4FE6 /* TranslatorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TranslatorCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE771D42508D58E003D4FE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC6B446250A6CD400FCAA9F /* clause */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6B447250A6CFD00FCAA9F /* ClauseVC.h */,
+				3FC6B448250A6CFD00FCAA9F /* ClauseVC.m */,
+				3FC6B449250A6CFD00FCAA9F /* ClauseVC.xib */,
+			);
+			path = clause;
+			sourceTree = "<group>";
+		};
+		3FE771CE2508D58E003D4FE6 = {
+			isa = PBXGroup;
+			children = (
+				3FE771D92508D58E003D4FE6 /* PetVoice */,
+				3FE771D82508D58E003D4FE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE771D82508D58E003D4FE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE771D72508D58E003D4FE6 /* PetVoice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE771D92508D58E003D4FE6 /* PetVoice */ = {
+			isa = PBXGroup;
+			children = (
+				3FE771F32508D6F2003D4FE6 /* Classes */,
+				3FE771DA2508D58E003D4FE6 /* AppDelegate.h */,
+				3FE771DB2508D58E003D4FE6 /* AppDelegate.m */,
+				3FE771DD2508D58E003D4FE6 /* SceneDelegate.h */,
+				3FE771DE2508D58E003D4FE6 /* SceneDelegate.m */,
+				3FE771E32508D58E003D4FE6 /* Main.storyboard */,
+				3FE771E62508D593003D4FE6 /* Assets.xcassets */,
+				3FE771E82508D593003D4FE6 /* LaunchScreen.storyboard */,
+				3FE771EB2508D593003D4FE6 /* Info.plist */,
+				3FE771EC2508D593003D4FE6 /* main.m */,
+			);
+			path = PetVoice;
+			sourceTree = "<group>";
+		};
+		3FE771F32508D6F2003D4FE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3FE771F42508D6F2003D4FE6 /* Tools */,
+				3FE771F52508D6F2003D4FE6 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3FE771F42508D6F2003D4FE6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3FE771FA2508D741003D4FE6 /* Tabbar */,
+				3FE7721725091B5D003D4FE6 /* PetVoice.pch */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3FE771F52508D6F2003D4FE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FE771F92508D6F2003D4FE6 /* Main */,
+				3FE771F62508D6F2003D4FE6 /* CatVoice */,
+				3FE771F72508D6F2003D4FE6 /* DogVoice */,
+				3FE771F82508D6F2003D4FE6 /* Translator */,
+				3FE7720F2508F69D003D4FE6 /* Subscribe */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FE771F62508D6F2003D4FE6 /* CatVoice */ = {
+			isa = PBXGroup;
+			children = (
+				3FE771FE2508D78C003D4FE6 /* CatViewController.h */,
+				3FE771FF2508D78C003D4FE6 /* CatViewController.m */,
+			);
+			path = CatVoice;
+			sourceTree = "<group>";
+		};
+		3FE771F72508D6F2003D4FE6 /* DogVoice */ = {
+			isa = PBXGroup;
+			children = (
+				3FE7721825092589003D4FE6 /* PetVoiceCollectionCell */,
+				3FE772012508D797003D4FE6 /* DogViewController.h */,
+				3FE772022508D797003D4FE6 /* DogViewController.m */,
+			);
+			path = DogVoice;
+			sourceTree = "<group>";
+		};
+		3FE771F82508D6F2003D4FE6 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				3FE772042508D7AB003D4FE6 /* TranslatorViewController.h */,
+				3FE772052508D7AB003D4FE6 /* TranslatorViewController.m */,
+				3FE7721C2509C885003D4FE6 /* TranslatorCell.h */,
+				3FE7721D2509C885003D4FE6 /* TranslatorCell.m */,
+				3FE7721E2509C885003D4FE6 /* TranslatorCell.xib */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		3FE771F92508D6F2003D4FE6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3FE772072508D7D5003D4FE6 /* MainViewController.h */,
+				3FE772082508D7D5003D4FE6 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3FE771FA2508D741003D4FE6 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3FE771FC2508D748003D4FE6 /* KBTabbar.h */,
+				3FE771FB2508D748003D4FE6 /* KBTabbar.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		3FE7720F2508F69D003D4FE6 /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6B446250A6CD400FCAA9F /* clause */,
+				3FE772122508F69D003D4FE6 /* SubscribeVC.h */,
+				3FE772112508F69D003D4FE6 /* SubscribeVC.m */,
+				3FE772102508F69D003D4FE6 /* SubscribeVC.xib */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		3FE7721825092589003D4FE6 /* PetVoiceCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				3FE77219250925A6003D4FE6 /* PetVoiceCell.h */,
+				3FE7721A250925A6003D4FE6 /* PetVoiceCell.m */,
+			);
+			path = PetVoiceCollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE771D62508D58E003D4FE6 /* PetVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE771F02508D593003D4FE6 /* Build configuration list for PBXNativeTarget "PetVoice" */;
+			buildPhases = (
+				3FE771D32508D58E003D4FE6 /* Sources */,
+				3FE771D42508D58E003D4FE6 /* Frameworks */,
+				3FE771D52508D58E003D4FE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetVoice;
+			productName = PetVoice;
+			productReference = 3FE771D72508D58E003D4FE6 /* PetVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE771CF2508D58E003D4FE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = cc0717;
+				TargetAttributes = {
+					3FE771D62508D58E003D4FE6 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 3FE771D22508D58E003D4FE6 /* Build configuration list for PBXProject "PetVoice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE771CE2508D58E003D4FE6;
+			productRefGroup = 3FE771D82508D58E003D4FE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE771D62508D58E003D4FE6 /* PetVoice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE771D52508D58E003D4FE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE771EA2508D593003D4FE6 /* LaunchScreen.storyboard in Resources */,
+				3FE771E72508D593003D4FE6 /* Assets.xcassets in Resources */,
+				3FE771E52508D58E003D4FE6 /* Main.storyboard in Resources */,
+				3FC6B44B250A6CFD00FCAA9F /* ClauseVC.xib in Resources */,
+				3FE77216250912B2003D4FE6 /* SubscribeVC.xib in Resources */,
+				3FE772202509C885003D4FE6 /* TranslatorCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE771D32508D58E003D4FE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE7721F2509C885003D4FE6 /* TranslatorCell.m in Sources */,
+				3FE772032508D797003D4FE6 /* DogViewController.m in Sources */,
+				3FE771DC2508D58E003D4FE6 /* AppDelegate.m in Sources */,
+				3FE7721B250925A6003D4FE6 /* PetVoiceCell.m in Sources */,
+				3FE771ED2508D593003D4FE6 /* main.m in Sources */,
+				3FE772092508D7D5003D4FE6 /* MainViewController.m in Sources */,
+				3FE772002508D78C003D4FE6 /* CatViewController.m in Sources */,
+				3FE77215250912A9003D4FE6 /* SubscribeVC.m in Sources */,
+				3FE771DF2508D58E003D4FE6 /* SceneDelegate.m in Sources */,
+				3FE772062508D7AB003D4FE6 /* TranslatorViewController.m in Sources */,
+				3FE771FD2508D748003D4FE6 /* KBTabbar.m in Sources */,
+				3FC6B44A250A6CFD00FCAA9F /* ClauseVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FE771E32508D58E003D4FE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE771E42508D58E003D4FE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FE771E82508D593003D4FE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE771E92508D593003D4FE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE771EE2508D593003D4FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PetVoice/Classes/Tools/PetVoice.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FE771EF2508D593003D4FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PetVoice/Classes/Tools/PetVoice.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE771F12508D593003D4FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Downloads/mydesk/PetVoice/PetVoice/Classes/Tools/PetVoice.pch;
+				INFOPLIST_FILE = PetVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PetVoice0909.PetVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FE771F22508D593003D4FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Downloads/mydesk/PetVoice/PetVoice/Classes/Tools/PetVoice.pch;
+				INFOPLIST_FILE = PetVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PetVoice0909.PetVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE771D22508D58E003D4FE6 /* Build configuration list for PBXProject "PetVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE771EE2508D593003D4FE6 /* Debug */,
+				3FE771EF2508D593003D4FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE771F02508D593003D4FE6 /* Build configuration list for PBXNativeTarget "PetVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE771F12508D593003D4FE6 /* Debug */,
+				3FE771F22508D593003D4FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE771CF2508D58E003D4FE6 /* Project object */;
+}
